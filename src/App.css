@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  background-image: url(https://cdn.wallpapersafari.com/11/82/iy1Emz.jpg);
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.btn{
+  /* color: red; */
+  /* position: absolute; */
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 14px;
+  padding: 14px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+/* margin-right: 70px; */
+  margin-left: 100px;
+  margin-top: 40px;
+ 
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.h1{
+  color: gold;
+}
+
+
+.open{
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 14px;
+  padding: 14px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: -70px;
+  margin-top: 40px;
+  mar
+}
+.open:hover{
+  background-color: black;
+  color: white;
+}
